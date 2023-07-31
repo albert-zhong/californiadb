@@ -1,0 +1,12 @@
+Page format:
+
+first 4 bytes are 0xBEEFFACE
+next 4 bytes are the number of tuples
+remaining bytes are the tuples themselves (row-orientated, not columnar)
+
+Data types:
+INT (4 bytes)
+
+VARCHAR(n)
+4 bytes for length
+at most n bytes for text

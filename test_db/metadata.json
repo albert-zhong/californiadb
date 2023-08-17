@@ -1,0 +1,1 @@
+{"databasePath":"./test_db","tables":{"persons":{"name":"persons","schema":{"columnNames":["age","isAdult"],"columnTypes":["INTEGER_TYPE","BOOLEAN_TYPE"]}}}}
